@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.add-new-button{
+    color: #18853A;
+    background-color: #CFFFDD;
+    border: none;
+    border-radius: 5px;
+
+}
+.add-new-button:hover{
+    background-color: #18853A;
+    color: white;
+}
+
+
+.save
+{
+    background-color: #18853A;
+    color: white;
+    padding: 13px 5px;
+border: none;
+border-radius: 5px;
+}
+
+
+button {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+   
+}
+
+.resetbtn {
+    color: black;
+    background-color: #B9B9B9;
+    padding: 13px 5px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.savebtn{
+    background-color: #18853A;
+    color: white;
+    padding: 13px 5px;
+border: none;
+border-radius: 5px;
+
+}
+.resetbtn,
+.savebtn {
+    float: left;
+    width: 40%;
+}
+.resetbtn:hover
+{
+    background-color:#8f8c8c; 
+
+}
+.savebtn:hover{
+    background-color: rgb(21, 114, 50);
+}

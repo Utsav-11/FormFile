@@ -1,0 +1,105 @@
+
+
+text-area
+{
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 5px;
+    color: #EFF2F4;
+}
+.upload{
+/* border: 1px dashed gray;  */
+    
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='13' ry='13' stroke='gray' stroke-width='4' stroke-dasharray='12' stroke-dashoffset='19' stroke-linecap='butt'/%3e%3c/svg%3e");
+    border-radius: 13px;
+    
+    
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-uploaded{
+    object-fit: cover;
+    height: 70px;
+    width: 70px;
+}
+.add-new-button{
+    color: #18853A;
+    background-color: #CFFFDD;
+    border: none;
+    border-radius: 5px;
+
+}
+.add-new-button:hover{
+    background-color: #18853A;
+    color: white;
+}
+.services-2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-shrink: 0;
+    
+}
+.services-2::after{
+   
+        position: absolute;
+        content: "";
+        height: 1px;
+        background-color: #4d4646;
+        width: 90%;
+       right: 90px;
+       
+        
+}.save
+{
+    background-color: #18853A;
+    color: white;
+    padding: 13px 5px;
+border: none;
+border-radius: 5px;
+}
+
+
+button {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+   
+}
+
+.resetbtn {
+    color: black;
+    background-color: #B9B9B9;
+    padding: 13px 5px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.savebtn{
+    background-color: #18853A;
+    color: white;
+    padding: 13px 5px;
+border: none;
+border-radius: 5px;
+
+}
+.resetbtn,
+.savebtn {
+    float: left;
+    width: 40%;
+}
+.resetbtn:hover
+{
+    background-color:#8f8c8c; 
+
+}
+.savebtn:hover{
+    background-color: rgb(21, 114, 50);
+}
